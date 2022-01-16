@@ -30,3 +30,36 @@ body {
   width: 400px;
   height: 470px;
 }
+.all-divisions {
+  text-align: center;
+}
+.all-division {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.division {
+  width: 250px;
+  height: 450px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 4px 4px 12px gray;
+}
+.division img {
+  width: 100%;
+}
+.para {
+  text-align: justify;
+}
+.text {
+  padding: 10px;
+}
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
